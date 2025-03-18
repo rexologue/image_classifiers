@@ -1,7 +1,7 @@
 from typing import Literal 
 
 import torch
-import torch.functional as F
+import torch.nn.functional as F
 from torch.nn import (Linear, Conv2d, BatchNorm1d, BatchNorm2d, 
                       ReLU, Sigmoid, SiLU, 
                       AvgPool2d, MaxPool2d, AdaptiveAvgPool2d, 
