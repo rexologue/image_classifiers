@@ -316,7 +316,6 @@ class ResNet(Module):
 
         # Финальный слой пулинга
         self.final_pool = Sequential(
-            BatchNorm2d(2048),
             AdaptiveAvgPool2d(1),
             Flatten()
         )
